@@ -14,7 +14,7 @@ public class ADV_Problem_12 {
 		
 		while (x<=n) {
 			System.out.println("Input number " + "("+(int) x +")" + ":");
-			num += input.nextInt();
+			num += input.nextDouble();
 			x +=1;
 		}
 		double average = (num/n);
